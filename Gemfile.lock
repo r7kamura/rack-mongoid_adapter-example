@@ -1,0 +1,50 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.0.3)
+      activesupport (= 4.0.3)
+      builder (~> 3.1.0)
+    activesupport (4.0.3)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    atomic (1.1.15)
+    bson (2.2.1)
+    bson_ext (1.5.1)
+    builder (3.1.4)
+    connection_pool (1.2.0)
+    i18n (0.6.9)
+    mem (0.1.0)
+    minitest (4.7.5)
+    mongoid (4.0.0.beta1)
+      activemodel (>= 4.0.0)
+      moped (~> 2.0.beta6)
+      origin (~> 2.1)
+      tzinfo (>= 0.3.37)
+    moped (2.0.0.beta6)
+      bson (~> 2.2)
+      connection_pool (~> 1.2)
+      optionable (~> 0.2.0)
+    multi_json (1.9.0)
+    optionable (0.2.0)
+    origin (2.1.0)
+    rack (1.5.2)
+    rack-mongoid_adapter (0.0.1)
+      bson_ext (>= 1.5.1)
+      mem (>= 0.0.5)
+      mongoid (>= 4.0.0.alpha2)
+      rack
+      rack-multiplexer (>= 0.0.6)
+    rack-multiplexer (0.0.7)
+      rack
+    thread_safe (0.2.0)
+      atomic (>= 1.1.7, < 2)
+    tzinfo (0.3.38)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack-mongoid_adapter
